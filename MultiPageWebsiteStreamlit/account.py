@@ -3,7 +3,7 @@ import firebase_admin
 from firebase_admin import credentials, auth
 
 
-cred = credentials.Certificate("streamlitpondering-e506699f1b52.json")
+cred = credentials.Certificate("Pondering_tutorial/MultiPageWebsiteStreamlit/streamlitpondering-e506699f1b52.json")
 #run only first time when run app and comment later
 firebase_admin.initialize_app(cred)
 
